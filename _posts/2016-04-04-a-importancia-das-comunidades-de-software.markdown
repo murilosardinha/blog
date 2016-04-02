@@ -7,23 +7,24 @@ author: nandosousa
 
 Eu comecei a codificar profissionalmente em 2011, logo após isso eu fui
 apresentado ao mundo Ruby. Melhor que isso, eu fui apresentado a comunidade
-Ruby, que talvez é a coisa mais revolucionária que Ruby nos deu.
+Ruby, que talvez é a coisa mais revolucionária que esta linguagem nos deu.
 
 Nessa época eu ainda morava em Santarém-PA, nela por um tempo, eu era o único desenvolvedor
 Ruby. Mas eu nunca me senti sozinho, pelo contrário, eu me sentia parte de uma
-ideologia –– A ideologia de entregar software com qualidade.
+ideologia –– a ideologia de entregar software com qualidade.
 
 Era incrível como eu estava longe grandes centros e polos de desenvolvemento e
 me sentia parte do processo, parte da conversa e parte da galera.
 
-## Uma porta aberta a iniciantes
+## Uma porta aberta aos iniciantes
 
-Se tornar um desenvolver Ruby chega a ser fácil, tem bastante conteúdo de graça
-disponível. Pergunte a qualquer Rubista o seguinte:
+Se tornar um desenvolvedor Ruby chega a ser fácil, por causa da quantidade de
+conteúdos gratuitos (e de qualidade) que estão disponíveis. Pergunte a qualquer
+Rubista o seguinte:
 
-* O que é o [tryruby.org][try-ruby];
-* Você chegou a fazer o curso grátis [Rails for Zombies][rails-for-zombies];
-* Viu algum episódio do [RailsCasts][rails-casts] do [@ryanbates][ryanbates];
+* O que é o [tryruby.org][try-ruby]?;
+* Você chegou a fazer o curso grátis [Rails for Zombies][rails-for-zombies]?;
+* Viu algum episódio do [RailsCasts][rails-casts] do [@ryanbates][ryanbates]?;
 
 Eu tenho certeza que quase todos (se não todos) irão responder a mesma coisa:
 __Sim__.
@@ -31,25 +32,25 @@ __Sim__.
 Conteúdos como estes reduzem drasticamente a curva de aprendizado e ajudam a
 comunidade a crescer mais rapidamente e com qualidade.
 
-É quase um "clichê" (no bom sentido)–– Todas as linguages de programação hoje
+É quase um "clichê" (no bom sentido)–– Todas as linguagens de programação hoje
 têm seu próprio "RailsCasts" ou seu "Try Ruby". Mas é algo que a comunidade
 Ruby introduziu.
 
 ## Eventos: A importância do conteúdo
 
 O maior evento de Ruby do Brasil acontece em São Paulo, participar desse evento
-envolvia duas coisas "básicas": Dinheiro e tempo de vôo. Dado essas
+envolvia duas coisas "básicas": dinheiro e tempo de vôo. Dado essas
 dificuldades consegui participar somente da [Rubyconf 2012][rubyconf2012].
 
 Bastava apenas esse evento para saber que caminho eu queria trilhar na minha
 carreira e que tipo de desenvolvedor eu queria ser. Lá eu vi o [@josevalim][jose-valim] falando sobre concorrência, o
 pessoal da [@helabs][helabs] falando sobre como entregar um projeto Rails em
-2 dias, membros do __Rails Core Team__ falando sobre novas features do Rails4 e  vi gente falando sobre Java, Scala, C, C++ etc...
+2 dias, membros do __Rails Core Team__ falando sobre novas features do Rails4 e vi gente falando sobre Java, Scala, C, C++ etc...
 
 Vale uma menção especial ao [talk][helabs-talk] da [@helabs][helabs] que me
 inspirou a criar minha [empresa](http://pixelbits.com.br), no qual tive uma
 experiência de 2 anos aprendendo muito não somente a parte técnica, mas também
-bussiness.
+business.
 
 ## Eventos: A importância do Networking
 [![Na Rubyconf com Angelo]({{ "/blog/assets/na-rubyconf.jpg" | prepend: site.basurl }} )][fb-rubyconf]
@@ -62,37 +63,36 @@ conteúdo não me agrade muito eu tendo a ir pelo networking. Conhecer pessoas �
 a parte mais legal de participar em eventos. Além de fazer novas amizades e
 trocar figurinhas: criar esse vínculo pode lhe trazer oportunidades.
 
-Ainda na RubyConf conheci Angelo Assis (espero revê-lo em breve), ele é de __Belém-PA__. Logo começamos a
-trocar ideias e trocamos contatos. Após o evento, ele desprendeu um tempinho e
+Ainda na RubyConf conheci Angelo Assis (espero revê-lo em breve), que é de __Belém-PA__. Logo começamos a
+trocar ideias e contatos. Após o evento, ele desprendeu um tempinho e
 me adicionou no [GURU-PA][guru-pa] (Grupo de usuários Ruby no Pará). Para resumir a
-história: Um belo dia o [CTO da Resultados Digitais][cto-rd] publica uma vaga no grupo,
+história: um belo dia o [CTO da Resultados Digitais][cto-rd] publica uma vaga no grupo,
 eu apliquei e passei \O/.
 
 [![Joca mineirando devs no Pará]({{ "/blog/assets/joca-mineirando-devs-no-para.png" | prepend: site.basurl }} )][joca-guru]
 
 Moral da história? Cá estou em Floripa vivenciando a experiência mais foda que
-ja tive na vida tanto profisionalmente, quanto pessoalmente ;)
-
+já tive na vida tanto profisionalmente, quanto pessoalmente ;).
 
 E então? se convenceu da importância do networking?
 
 ## Inspiração para contruir comunidades locais
 
 Como consequência de todo esse processo de aprendizagem, sinto que minha
-carreira está intrisicamente ligada a comunidade, networking e trocas de
+carreira está intrisecamente ligada a comunidade, networking e trocas de
 conhecimento.
 
-Ainda em Santarém-PA fundei juntamente com os irmão Kainã e Gustavo Guarany o
+Ainda em Santarém-PA fundei juntamente com os irmãos Kainã e Gustavo Guarany o
 [DevInSanta][devinsanta], que tem como objetivo desenvolver o empreendorismo
 digital no coração da Floresta Amazônica.
 
-E em Florianópolis, estou coordenando dois meetups: O [FloripaOnRails][floripaonrails] e o [Gophers Floripa][gopherssc].
+Aqui em Florianópolis, estou coordenando dois meetups: O [FloripaOnRails][floripaonrails] e o [Gophers Floripa][gopherssc].
 
 Em um próximo artigo pretendo compartilhar os aprendizados de se coordenar e
 prosperar comunidades locais.
 
 ## Vamos conversar?
-Sugestões, críticas ou depoimentos? Deixe seu comentário.
+Sugestões, críticas ou depoimentos? Deixe seu comentário!
 
 
 [try-ruby]:           http://tryruby.org
