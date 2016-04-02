@@ -4,6 +4,7 @@
 
 1. `$ gem install jekyll`;
 2. Inicie o servidor: `$ jekyll serve -w --drafts`;
+3. acesse: `http://localhost:4000/blog/`;
 
 ## Contribuindo
 
