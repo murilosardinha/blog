@@ -113,3 +113,4 @@ Sugestões, críticas ou depoimentos? Deixe seu comentário!
 [fb-rubyconf]:        https://www.facebook.com/locaweb/photos/rpd.100000969973321/444158045627174/?type=3&theater
 [floripaonrails]:     http://www.meetup.com/Floripa-on-Rails/
 [Gopherssc]:          http://www.meetup.com/Floripa-Gophers/
+[devinsanta]:         http://www.meetup.com/DevInSanta
