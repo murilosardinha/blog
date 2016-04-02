@@ -9,6 +9,6 @@ baseurl: "http://devinsanta.github.io/blog" # the subpath of your site, e.g. /bl
 url: "http://devinstanta.github.io/blog" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-
+meetup_url: "http://meetup.com/devinsanta"
 # Build settings
 markdown: kramdown
