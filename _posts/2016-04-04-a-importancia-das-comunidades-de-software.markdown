@@ -7,14 +7,15 @@ author: nandosousa
 
 Eu comecei a codificar profissionalmente em 2011, logo após isso eu fui
 apresentado ao mundo Ruby. Melhor que isso, eu fui apresentado a comunidade
-Ruby, que talvez é a coisa mais revolucionária que esta linguagem nos deu.
+Ruby, que talvez é a coisa mais revolucionária que a linguagem nos deu.
 
 Nessa época eu ainda morava em Santarém-PA, nela por um tempo, eu era o único desenvolvedor
 Ruby. Mas eu nunca me senti sozinho, pelo contrário, eu me sentia parte de uma
 ideologia –– a ideologia de entregar software com qualidade.
 
-Era incrível como eu estava longe grandes centros e polos de desenvolvemento e
-me sentia parte do processo, parte da conversa e parte da galera.
+Era incrível como mesmo estando longe dos grandes centros e pólos de
+desenvolvimento, me sentia parte do processo, parte da conversa e parte da
+galera.
 
 ## Uma porta aberta aos iniciantes
 
