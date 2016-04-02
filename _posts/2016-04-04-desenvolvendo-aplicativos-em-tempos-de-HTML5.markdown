@@ -45,48 +45,54 @@ Para resolver este “problema”, execute através do [phonegap*][phonegap]: `$
 
 ### Index.html
 
-  1. insira dentro do <body>
+* eu precisei comentar esta linha dentro do `<head>`
+{% highlight html %}
+<!--
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+-->
+{% endhighlight %}
 
-    {% highlight html %}
-    <body>
-      <div id="demo"><br><br></div>
+* insira dentro do `<body>`
 
-      <script>
-        // o blog disponibiliza um feed .xml
-        // realizando e preparando o request via 'pure javascript'
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if (xhttp.readyState == 4 && xhttp.status == 200) {
-            // status == 200, executa a função.
-            myFunction(xhttp);
-          }
-        };
-        xhttp.open("GET", "http://devinsanta.github.io/blog/feed.xml", true);
-        xhttp.send();
+{% highlight html %}
+<body>
+  <div id="demo"><br><br></div>
 
-        function myFunction(xml) {
-          // tratando os dados
-          var xmlDoc = xml.responseXML;
-          var items  = xmlDoc.getElementsByTagName('item');
+  <script>
+    // o blog disponibiliza um feed .xml
+    // realizando e preparando o request via 'pure javascript'
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (xhttp.readyState == 4 && xhttp.status == 200) {
+        // status == 200, executa a função.
+        myFunction(xhttp);
+      }
+    };
+    xhttp.open("GET", "http://devinsanta.github.io/blog/feed.xml", true);
+    xhttp.send();
 
-          // para cada item encontrado através da tag <item>
-          for(var i = 0; i < items.length; i++){
-            var title       = items[i].getElementsByTagName('title')[0];
-            var description = items[i].getElementsByTagName('description')[0];
-            var url         = items[i].getElementsByTagName('link')[0];
+    function myFunction(xml) {
+      // tratando os dados
+      var xmlDoc = xml.responseXML;
+      var items  = xmlDoc.getElementsByTagName('item');
 
-            // renderizando no elemento de id == "demo"
-            // limitando o N de char da variavel `description`
-            document.getElementById("demo").innerHTML +=
-              "<a href='http://devinsanta.github.io" + url.textContent + "'>" +
-              title.textContent + "</a> <br>" +
-              description.textContent.substring(0,100) + "...<br><br>";
-          }
-        }
-      </body>
-    </script>
-  {% endhighlight %}
+      // para cada item encontrado através da tag <item>
+      for(var i = 0; i < items.length; i++){
+        var title       = items[i].getElementsByTagName('title')[0];
+        var description = items[i].getElementsByTagName('description')[0];
+        var url         = items[i].getElementsByTagName('link')[0];
 
+        // renderizando no elemento de id == "demo"
+        // limitando o N de char da variavel `description`
+        document.getElementById("demo").innerHTML +=
+          "<a href='http://devinsanta.github.io" + url.textContent + "'>" +
+          title.textContent + "</a> <br>" +
+          description.textContent.substring(0,100) + "...<br><br>";
+      }
+    }
+  </body>
+</script>
+{% endhighlight %}
 
 ## Contribua Na Nossa Comunidade
 Continue o app e compartilhe sua experiência com apps híbridos.
