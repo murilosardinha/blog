@@ -81,7 +81,7 @@ E então? se convenceu da importância do networking?
 ## Inspiração para contruir comunidades locais
 
 Como consequência de todo esse processo de aprendizagem, sinto que minha
-carreira está intrisecamente ligada a comunidade, networking e trocas de
+carreira está intrisecamente ligada a comunidade, networking e disseminação de
 conhecimento.
 
 Ainda em Santarém-PA fundei juntamente com os irmãos Kainã e Gustavo Guarany o
