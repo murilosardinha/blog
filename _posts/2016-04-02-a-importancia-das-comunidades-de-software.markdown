@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A importância das comunidades de software"
+date: 2016-04-02 17:00:00
 categories: dev
 author: nandosousa
 ---
