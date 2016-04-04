@@ -4,6 +4,7 @@ title: "A importância das comunidades de software"
 date: 2016-04-02 17:00:00
 categories: dev
 author: nandosousa
+twitter_username: nandosousafr
 ---
 
 Eu comecei a codificar profissionalmente em 2011, logo após isso eu fui

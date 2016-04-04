@@ -1,0 +1,66 @@
+//
+// Social Share
+//
+
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  margin-right: 10px;
+}
+
+.share-page { border-top: 1px solid #e8e8e8; }
+
+.social-buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 40px;
+
+  li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  li a {
+    height: 28px;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: white;
+    padding: 0 10px 0;
+  }
+}
+
+.social-buttons {
+  a.brandico-twitter-bird { background-color: #4099FF; }
+  a.brandico-facebook { background-color: #3B5998; }
+  a.brandico-googleplus-rect { background-color: #DD4B39; }
+}
+
+.casper li a { transition: transform 0.2s linear; }
+.casper li:hover a { transform: translateY(-5px); }
+
+@media only screen and (max-width: 480px) {
+  .share-page {
+    span {
+      display: none;
+    }
+    &:before {
+      content: "Compartilhe";
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .social-buttons li {
+    text-align: center;
+    float: none;
+    display: block !important;
+    margin: 5px 0;
+  }
+}
