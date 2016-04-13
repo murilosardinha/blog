@@ -52,53 +52,12 @@ Para resolver este “problema”, execute através do [phonegap*][phonegap]: `$
 ### Index.html
 
 * eu precisei comentar esta linha dentro do `<head>`
-{% highlight html %}
-<!--
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
--->
-{% endhighlight %}
+
+{% gist 14bd0cd4c2c17bed2ee6781678724126 header.html %}
 
 * insira dentro do `<body>`
 
-{% highlight html %}
-<body>
-  <div id="demo"><br><br></div>
-
-  <script>
-    // o blog disponibiliza um feed .xml
-    // realizando e preparando o request via 'pure javascript'
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if (xhttp.readyState == 4 && xhttp.status == 200) {
-        // status == 200, executa a função.
-        myFunction(xhttp);
-      }
-    };
-    xhttp.open("GET", "http://devinsanta.github.io/blog/feed.xml", true);
-    xhttp.send();
-
-    function myFunction(xml) {
-      // tratando os dados
-      var xmlDoc = xml.responseXML;
-      var items  = xmlDoc.getElementsByTagName('item');
-
-      // para cada item encontrado através da tag <item>
-      for(var i = 0; i < items.length; i++){
-        var title       = items[i].getElementsByTagName('title')[0];
-        var description = items[i].getElementsByTagName('description')[0];
-        var url         = items[i].getElementsByTagName('link')[0];
-
-        // renderizando no elemento de id == "demo"
-        // limitando o N de char da variavel `description`
-        document.getElementById("demo").innerHTML +=
-          "<a href='http://devinsanta.github.io" + url.textContent + "'>" +
-          title.textContent + "</a> <br>" +
-          description.textContent.substring(0,100) + "...<br><br>";
-      }
-    }
-  </body>
-</script>
-{% endhighlight %}
+{% gist 1b57803e132203dccb10bef167c6a415 index.html %}
 
 ## Comparando Resultados
 O app deve buscar todos os posts publicados no blog, bem como o título,

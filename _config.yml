@@ -9,3 +9,6 @@ github_project:  "devinsanta/blog"
 meetup_url: "http://meetup.com/devinsanta"
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-gist
