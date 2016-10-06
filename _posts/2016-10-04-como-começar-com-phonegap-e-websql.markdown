@@ -14,8 +14,8 @@ author: murilosardinha
 
 ## Por onde começar?
 
-* abrir o [PhoneGap Desktop app][PhoneGap-Desktop-app] e criar um novo projeto.
-* conectar com o [PhoneGap Developer app][PhoneGap-Developer-app] caso tenha realizado o download.
+* Abra o [PhoneGap Desktop app][PhoneGap-Desktop-app] e crie um novo projeto.
+* Conecte com o [PhoneGap Developer app][PhoneGap-Developer-app] caso você tenha realizado o download.
 
 ## O que você pode fazer?
 
@@ -47,10 +47,10 @@ está utilizando o <strong>[navegador Chrome][Google-Chrome]</strong>.
 O banco de dados WebSQL é um modelo que traz SQL para o lado do cliente (client side SQL).
 Você precisará de algumas variáveis para iniciar o seu banco de dados:
 
-1. o nome do banco;
-2. o número da versão, pegue algo como ‘1.0’.
-3. um texto de descrição;
-4. e o tamanho do banco de dados em <strong>*kb</strong>.
+1. O nome do banco;
+2. O número da versão, pegue algo como ‘1.0’.
+3. Um texto de descrição;
+4. E, o tamanho do banco de dados em <strong>*kb</strong>.
 * Logo, por exemplo, se você precisa de 1mb, use `1024 x 1024`, que dará 1mb.
 
 Depois disso, você pode inicializar o seu Banco de dados em alguma variável.
@@ -67,10 +67,10 @@ A API de banco de dados Web SQL têm alguns métodos que você precisa saber.
 
 Agora, você pode criar a sua primeira tabela.
 
-1. você precisará de um nome para a tabela;
-2. você irá utilizar o método `transaction()`;
-3. isso gerarará um objeto transaction: `tx`;
-4. depois disso, você pode rodar algum `sql`;
+1. Você precisará de um nome para a tabela;
+2. Você irá utilizar o método `transaction()`;
+3. Isso gerarará um objeto transaction: `tx`;
+4. Depois disso, você pode rodar algum `sql`;
   * Para executar isso, tenha certeza que você setou alguns <strong>atributos</strong>
   na tabela como: `name, description, address, phone..`.
 
@@ -78,8 +78,8 @@ Agora, você pode criar a sua primeira tabela.
 
 E agora? Depois de ter criado a tabela, vamos inserir algum dado.
 
-1. insira o atributo e o valor que irá ser setado em uma tabela específica;
-2. não esqueça de usar a `variável db` e os métodos apresentados anteriormente;
+1. Insira o atributo e o valor que irá ser setado em uma tabela específica;
+2. Não esqueça de usar a `variável db` e os métodos apresentados anteriormente;
 
 <script src="https://gist.github.com/murilosardinha/1cf8ee06ba3723afc12dad05ed84e318.js"></script>
 
@@ -92,17 +92,17 @@ precisamos de um simples laço que tratará os resultados da query (rows).
 
 Concluindo, você precisará:
 
-1. compactar todo o seu projeto em um arquivo `.zip`;
-2. faça upload para a <b>[plataforma do phonegap][phonegap-platform]</b>
-3. escolha o tipo de projeto (público/privado):
-* você poderá ter somente um projeto privado
-4. e aguarde a compilação. 
+1. Compactar todo o seu projeto em um arquivo `.zip`;
+2. Faça upload para a <b>[plataforma do phonegap][phonegap-platform]</b>
+3. Escolha o tipo de projeto (público/privado):
+* Você poderá ter somente um projeto privado
+4. E, aguarde a compilação. 
 
 Depois disso, você pode setar as chaves de desenvolvedor apple ou google se
 você já tem. Caso contrário, você só poderá baixar o arquivo `.apk` para
 dispositivos Android.
 
-## O mais famosos frameworks e seus layouts
+## Os mais famosos frameworks e seus layouts
 
 Se você não quer demorar muito codando o `.css` do projeto, você pode
 simplesmente instalar o framework para trazer todo esse trabalho para você.
