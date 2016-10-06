@@ -19,15 +19,15 @@ author: murilosardinha
 
 ## O que você pode fazer?
 
-### Setando valores no html
+### Atribuindo valores no html
 
-Você pode setar o conteúdo do html do primeiro elemento onde a class do DOM é `<className>`. 
+Você pode atribuir o conteúdo do html do primeiro elemento onde a class do DOM é `<className>`. 
 <br>
 Por exemplo, se o nome da classe do DOM for `wrapper-text` você pode fazer o seguinte:
 
 <script src="https://gist.github.com/murilosardinha/1b9e736fdad79e3f31759f41f3ddccf9.js"></script>
 
-Então, se você tem um `<p class=“wrapper-text”>`, você pode setar o conteúdo desse <strong>p</strong>.
+Então, se você tem um `<p class=“wrapper-text”>`, você pode atribuir o conteúdo desse <strong>p</strong>.
 
 <script src="https://gist.github.com/murilosardinha/51ca9c0c2e3ef4d0f05e6b66ef9ffb84.js"></script>
 
@@ -37,7 +37,7 @@ O resultado será:
 
 Mas, vamos fazer mais...
 
-### Setando valores no html <strong>através do</strong> WebSQL db
+### Atribuindo valores no html <strong>através do</strong> WebSQL db
 
 Primeiro de tudo, temos que fazer uma conexão com o banco e tenha certeza de que você
 está utilizando o <strong>[navegador Chrome][Google-Chrome]</strong>.
@@ -71,14 +71,14 @@ Agora, você pode criar a sua primeira tabela.
 2. Você irá utilizar o método `transaction()`;
 3. Isso gerarará um objeto transaction: `tx`;
 4. Depois disso, você pode rodar algum `sql`;
-  * Para executar isso, tenha certeza que você setou alguns <strong>atributos</strong>
+  * Para executar isso, tenha certeza que você atribuiu alguns <strong>atributos</strong>
   na tabela como: `name, description, address, phone..`.
 
 <script src="https://gist.github.com/murilosardinha/02351fdfdb9938657ff5f7c49509d4eb.js"></script>
 
 E agora? Depois de ter criado a tabela, vamos inserir algum dado.
 
-1. Insira o atributo e o valor que irá ser setado em uma tabela específica;
+1. Insira o atributo e o valor que irá ser atribuído em uma tabela específica;
 2. Não esqueça de usar a `variável db` e os métodos apresentados anteriormente;
 
 <script src="https://gist.github.com/murilosardinha/1cf8ee06ba3723afc12dad05ed84e318.js"></script>
@@ -98,7 +98,7 @@ Concluindo, você precisará:
 * Você poderá ter somente um projeto privado
 4. E, aguarde a compilação. 
 
-Depois disso, você pode setar as chaves de desenvolvedor apple ou google se
+Depois disso, você pode atribuir as chaves de desenvolvedor apple ou google se
 você já tem. Caso contrário, você só poderá baixar o arquivo `.apk` para
 dispositivos Android.
 
